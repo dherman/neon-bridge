@@ -1,21 +1,21 @@
 {
   "name": "neon-bridge",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Automatically load Neon modules.",
   "main": "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dherman/neon-bridge.git"
+    "url": "git+https://github.com/rustbridge/neon-bridge.git"
   },
-  "author": "Dave Herman",
+  "author": "Dave Herman <dherman@mozilla.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dherman/neon-bridge/issues"
+    "url": "https://github.com/rustbridge/neon-bridge/issues"
   },
-  "homepage": "https://github.com/dherman/neon-bridge#readme",
+  "homepage": "https://github.com/rustbridge/neon-bridge#readme",
   "dependencies": {
     "bindings": "^1.2.1",
-    "find": "^0.2.3",
-    "toml": "^2.3.0"
+    "toml": "^2.3.0",
+    "nan": "^2.1.0"
   }
 }
