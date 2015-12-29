@@ -1,5 +1,7 @@
 # Neon-bridge
 
+[![npm](https://img.shields.io/npm/v/neon-bridge.svg)](https://www.npmjs.com/package/neon-bridge)
+
 Automatically load [Neon](https://github.com/dherman/neon) modules.
 
 # API
