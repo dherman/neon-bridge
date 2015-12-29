@@ -7,7 +7,7 @@ Automatically load [Neon](https://github.com/dherman/neon) modules.
 # API
 
 ```javascript
-var myNeonModule = require('neon-bridge').load();
+var addon = require('neon-bridge').load();
 ```
 
 You can override defaults by passing an optional options object to the `neon-bridge` module:
